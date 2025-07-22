@@ -6,6 +6,8 @@ import Footer from "@/components/Footer";
 import marketingPlatforms from "@/assets/marketing-platforms.jpg";
 import strategyGrowth from "@/assets/strategy-growth.jpg";
 import innovationTech from "@/assets/innovation-tech.jpg";
+import silvioMeira from "@/assets/Silvio_Meira_0038.jpg";
+import rosarioPompeia from "@/assets/Rosario-qc1jd9gqja2bmrqu3r2bm1y00tx3mbrwgvs9jonixs.webp";
 import { 
   Target, 
   Zap, 
@@ -42,15 +44,15 @@ const Index = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-5xl mx-auto text-center">
             {/* Badge superior */}
-            <Badge className="mb-6 bg-secondary/20 text-foreground border-secondary/30 animate-fade-in">
-              <Sparkles className="w-4 h-4 mr-2" />
+            <Badge className="mb-6 bg-secondary/20 text-foreground text-lg border-secondary/30 animate-fade-in hover:bg-primary hover:text-background">
+              <Sparkles className="w-8 h-8 mr-2" />
               Curso Intensivo 2 Dias • 15 e 16 de Agosto
             </Badge>
             
             <h1 className="font-space text-4xl md:text-7xl font-bold mb-8 leading-tight animate-slide-up">
               Quem não sabe criar estratégia,{" "}
               <span className="relative inline-block">
-                <span className="bg-primary text-primary-foreground px-4 py-2 rounded-lg">vive apagando incêndio.</span>
+                <span className="text-primary px-4 py-2 rounded-lg">vive apagando incêndio.</span>
               </span>
             </h1>
             
@@ -429,7 +431,7 @@ const Index = () => {
                 </Badge>
                 
                 <h2 className="font-space text-3xl md:text-5xl font-bold mb-8 leading-tight">
-                  O diferencial da <span className="bg-secondary text-secondary-foreground px-4 py-2 rounded-lg">metodologia</span>
+                  O diferencial da <span className="text-secondary-foreground px-4 py-2 rounded-lg">metodologia</span>
                 </h2>
                 
                 <div className="space-y-6">
@@ -502,7 +504,7 @@ const Index = () => {
                   <div className="flex items-start space-x-8">
                     <div className="relative">
                       <div className="h-20 w-20 bg-gradient-to-br from-secondary to-secondary/80 rounded-2xl flex items-center justify-center shadow-lg">
-                        <span className="font-space text-3xl font-bold text-secondary-foreground">SM</span>
+                        <img src={silvioMeira} alt="Silvio Meira Foto" className="w-full h-full object-cover" />
                       </div>
                       <div className="absolute -top-2 -right-2 bg-primary rounded-full p-2">
                         <Star className="w-4 h-4 text-primary-foreground" />
@@ -557,12 +559,12 @@ const Index = () => {
             
             <div className="text-center mt-16 animate-fade-in">
               <div className="bg-secondary/10 backdrop-blur-sm rounded-2xl p-8 border border-secondary/20">
-                <p className="font-space text-2xl text-primary-foreground leading-relaxed">
+                <p className="font-space text-2xl text-primary-foreground leading-relaxed mb-2">
                   Quando você aprende com quem construiu o presente, 
-                  <span className="bg-secondary text-secondary-foreground px-4 py-2 rounded-lg ml-2">
-                    está se preparando para o que vem depois dele.
-                  </span>
                 </p>
+                <span className="bg-secondary font-space text-2xl text-secondary-foreground px-4 py-2 rounded-lg">
+                    está se preparando para o que vem depois dele.
+                </span>
               </div>
             </div>
           </div>
@@ -650,7 +652,7 @@ const Index = () => {
                   
                   <Button 
                     onClick={() => window.open('https://www-lefil-com-br.rds.land/lp-ementa-curso-estrategia-mkt-plataformas-2025', '_blank')}
-                    className="font-space text-lg px-8 py-6 h-auto bg-gradient-to-r from-secondary to-secondary/90 text-secondary-foreground hover:from-secondary/90 hover:to-secondary transform hover:scale-105 transition-all duration-300 shadow-lg group"
+                    className="w-full h-full font-space text-lg px-8 py-6 h-auto bg-gradient-to-r from-secondary to-secondary/90 text-secondary-foreground hover:from-secondary/90 hover:to-secondary transform hover:scale-105 transition-all duration-300 shadow-lg group"
                   >
                     <ArrowRight className="w-5 h-5 mr-3 group-hover:translate-x-1 transition-transform" />
                     BAIXAR EMENTA COMPLETA
@@ -676,14 +678,14 @@ const Index = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <div className="animate-fade-in">
-              <Badge className="mb-8 bg-primary/20 text-primary border-primary/30 text-lg px-6 py-2">
+              <Badge className="mb-8 bg-primary/60 text-background border-primary/30 text-lg px-6 py-2 hover:bg-background hover:text-primary">
                 <Clock className="w-5 h-5 mr-2" />
                 Oferta por Tempo Limitado
               </Badge>
               
               <h2 className="font-space text-3xl md:text-5xl font-bold mb-12 text-secondary-foreground leading-tight">
                 O que vale mais: seguir tentando sozinho ou aprender em 2 dias o que pode 
-                <span className="bg-primary text-primary-foreground px-4 py-2 rounded-lg ml-2">
+                <span className="text-primary px-4 py-2 rounded-lg ml-2">
                   mudar sua atuação inteira?
                 </span>
               </h2>
@@ -789,7 +791,7 @@ const Index = () => {
                 <div className="bg-background p-8 rounded-2xl border-2 border-secondary/20">
                   <p className="font-poppins text-xl leading-relaxed text-muted-foreground">
                     Se após a primeira aula você sentir que o curso não entrega o que promete, 
-                    você pode solicitar <span className="bg-secondary text-secondary-foreground px-3 py-1 rounded font-semibold">reembolso integral</span>.
+                    você pode solicitar <span className="bg-secondary text-secondary-foreground px-3 py-1 rounded font-semibold">reembolso integral.</span>
                   </p>
                   <p className="font-space text-2xl font-bold text-foreground mt-4">
                     Sem perguntas.
