@@ -504,7 +504,7 @@ const Index = () => {
                   <div className="flex items-start space-x-8">
                     <div className="relative">
                       <div className="h-20 w-20 bg-gradient-to-br from-secondary to-secondary/80 rounded-2xl flex items-center justify-center shadow-lg">
-                        <img src={silvioMeira} alt="Silvio Meira Foto" className="w-full h-full object-cover" />
+                        <img src={silvioMeira} alt="Silvio Meira Foto" className="w-full h-full object-cover rounded-lg shadow" />
                       </div>
                       <div className="absolute -top-2 -right-2 bg-primary rounded-full p-2">
                         <Star className="w-4 h-4 text-primary-foreground" />
@@ -533,7 +533,7 @@ const Index = () => {
                   <div className="flex items-start space-x-8">
                     <div className="relative">
                       <div className="h-20 w-20 bg-gradient-to-br from-secondary to-secondary/80 rounded-2xl flex items-center justify-center shadow-lg">
-                        <span className="font-space text-3xl font-bold text-secondary-foreground">RP</span>
+                        <img src={rosarioPompeia} alt="Rosário Pompeia Foto" className="w-full h-full object-cover rounded-lg shadow" />
                       </div>
                       <div className="absolute -top-2 -right-2 bg-primary rounded-full p-2">
                         <Sparkles className="w-4 h-4 text-primary-foreground" />
