@@ -769,34 +769,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Garantia */}
-      <section className="bg-gradient-to-r from-background to-secondary/5 py-20 relative overflow-hidden">
-        {/* Elementos decorativos */}
-        <div className="absolute top-10 left-10 w-48 h-48 bg-secondary/10 rounded-full blur-2xl animate-pulse-slow"></div>
-        <div className="absolute bottom-10 right-10 w-64 h-64 bg-secondary/5 rounded-full blur-3xl animate-pulse-slow"></div>
-        
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="animate-fade-in">
-              <div className="bg-gradient-to-r from-secondary/10 to-transparent p-8 rounded-3xl border border-secondary/20 shadow-2xl">
-                <div className="flex items-center justify-center mb-8">
-                  <div className="bg-secondary/20 p-4 rounded-full mr-4">
-                    <Shield className="w-8 h-8 text-secondary" />
-                  </div>
-                  <h2 className="font-space text-3xl md:text-4xl font-bold text-foreground">
-                    Garantia / Confiança
-                  </h2>
-                </div>
-                
-                <div className="bg-background p-8 rounded-2xl border-2 border-secondary/20">
-                  <p className="font-poppins text-xl leading-relaxed text-muted-foreground">
-                    Se após a primeira aula você sentir que o curso não entrega o que promete, 
-                    você pode solicitar <span className="bg-secondary text-secondary-foreground px-3 py-1 rounded font-semibold">reembolso integral.</span>
-                  </p>
-                  <p className="font-space text-2xl font-bold text-foreground mt-4">
-                    Sem perguntas.
-                  </p>
-                </div>
+     
                 
                 {/* Trust indicators */}
                 <div className="grid md:grid-cols-3 gap-6 mt-8">
