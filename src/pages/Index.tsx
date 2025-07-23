@@ -770,27 +770,7 @@ const Index = () => {
       </section>
 
      
-                
-                {/* Trust indicators */}
-                <div className="grid md:grid-cols-3 gap-6 mt-8">
-                  <div className="flex items-center justify-center p-4 bg-background/50 backdrop-blur rounded-lg">
-                    <Shield className="w-5 h-5 text-secondary mr-2" />
-                    <span className="font-poppins text-sm font-medium">100% Seguro</span>
-                  </div>
-                  <div className="flex items-center justify-center p-4 bg-background/50 backdrop-blur rounded-lg">
-                    <Clock className="w-5 h-5 text-secondary mr-2" />
-                    <span className="font-poppins text-sm font-medium">Reembolso Rápido</span>
-                  </div>
-                  <div className="flex items-center justify-center p-4 bg-background/50 backdrop-blur rounded-lg">
-                    <CheckCircle className="w-5 h-5 text-secondary mr-2" />
-                    <span className="font-poppins text-sm font-medium">Sem Complicação</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       {/* CTA Fixo Mobile */}
       <div className="fixed bottom-0 left-0 right-0 bg-primary p-4 z-50 md:hidden">
