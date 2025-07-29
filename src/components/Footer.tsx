@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center text-center space-y-4">
           <div className="h-full w-full rounded flex items-center justify-center space-x-16">
-            <img src={LogoPortoDigital}
+            <img src={LogoEscola}
             alt="Logo Escola" 
             className="h-32 w-74" />
             <img src={LogoPortoDigital}
